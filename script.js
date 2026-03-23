@@ -5,7 +5,7 @@ const question = document.getElementById('question');
 const buttons = document.getElementById('buttons');
 
 yesBtn.addEventListener('click', () => {
-  question.textContent = 'Te amo pra sempre mon chéri 💕';
+  question.textContent = 'Te amo pra sempre querida 💕';
   buttons.style.display = 'none';
   celebration.classList.remove('hidden');
   createConfetti();
