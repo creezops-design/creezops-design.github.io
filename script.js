@@ -13,8 +13,8 @@ yesBtn.addEventListener('click', () => {
 
 noBtn.addEventListener('mouseover', () => {
   // Gera coordenadas aleatórias para mover o botão
-  const randomX = Math.random() * 200 - 100; // -100 a 100
-  const randomY = Math.random() * 200 - 100; // -100 a 100
+  const randomX = Math.random() * 800 - 400; // -100 a 100
+  const randomY = Math.random() * 800 - 400; // -100 a 100
   
   noBtn.style.transform = `translate(${randomX}px, ${randomY}px)`;
 });
